@@ -60,6 +60,8 @@
           <li><a href="/order">Order</a></li>
           <li><a href="#contact">Contact</a></li>
           <li><a href="{{ route('admin.index') }}">Admin Panel</a></li>
+          <li><a href="{{ route('profile.edit') }}">Profile</a></li>
+
           <li>
   <form method="POST" action="{{ route('logout') }}">
     @csrf
@@ -69,6 +71,13 @@
 
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+
+@auth
+@if(auth()->user()->email === 'asyrafpie@gmail.com')
+    <li><a href="{{ route('admin.2fa') }}">2FA Security</a></li>
+@endif
+@endauth
+
       </nav>
 
     </div>
