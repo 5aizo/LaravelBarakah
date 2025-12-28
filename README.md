@@ -3,7 +3,7 @@
 **Course:** INFO 4345 Web Application Security 
 **Semester:** Semester 2, 2024/2025  
 **Institution:** International Islamic University Malaysia
-**Group Name:** Last  
+**Group Name:** 
 **Members:**
 - Raja Muhamad Umar (2119191) [Rubrics 1–4]
 - Muhammad Afzal Bin Mohd Nor (2123023) [Rubrics 5–8]
